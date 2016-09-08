@@ -1,0 +1,18 @@
+{
+    "name": "claudusd/mono",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "extra": {
+        "class": "Claudusd\\Composer\\Mono\\Mono"
+    },
+    "require-dev": {
+        "composer/composer": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Claudusd\\Composer\\Mono\\": "lib/"
+        }
+    }
+}
